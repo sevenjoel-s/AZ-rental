@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --az-navy: #123B65;
+    --az-gold: #F5A623;
+    --az-bg: #F1F4F8;
+    --az-text: #172033;
+  }
+
+  body {
+    font-family: 'DM Sans', 'Noto Sans Ethiopic', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Ethiopic', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.leaflet-container {
+  font-family: 'DM Sans', 'Noto Sans Ethiopic', system-ui, sans-serif;
+  z-index: 10;
+}

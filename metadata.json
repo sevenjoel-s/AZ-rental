@@ -1,0 +1,6 @@
+{
+  "name": "AZ RENTAL",
+  "description": "Find Your Place. Connect Directly. Ethiopia's trusted rental marketplace for houses, vehicles, construction equipment, heavy machinery, and event gear.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
